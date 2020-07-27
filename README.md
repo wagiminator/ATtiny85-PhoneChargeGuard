@@ -16,7 +16,8 @@ The ATtiny85 USB Phone Charge Guard controls and monitors the charging of phones
 |mA|Stop charging when current falls below the selected value (this usually correlates with the state of charge of the battery)|
 |min|Stop charging after the selected time in minutes|
 
+Project Video: https://youtu.be/9DHBoqHImcM
+
 ![IMG_20200718_184849_x.jpg](https://image.easyeda.com/pullimage/bpP2bVaRxFUDLPbcNhybCVts6gUZ4GgktVu9Ewga.jpeg)
 ![IMG_20200718_152748_x.jpg](https://image.easyeda.com/pullimage/BE2gF9fozvO5gDDAsaNqzVgwoUroLCRWibQ0LX0X.jpeg)
 ![IMG_20200718_152855_x.jpg](https://image.easyeda.com/pullimage/3QvPnmSNou87xKf8SOlAa34D73HGcBACELj2p5Mx.jpeg)
-
