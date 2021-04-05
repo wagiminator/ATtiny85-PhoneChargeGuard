@@ -4,7 +4,7 @@ The ATtiny45/85 USB Phone Charge Guard controls and monitors the charging of pho
 - Project Video (YouTube): https://youtu.be/9DHBoqHImcM
 - Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-phone-charge-guard
 
-![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic1.jpg)
+![pic6.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic6.jpg)
 
 # Hardware
 ## USB Connectors
