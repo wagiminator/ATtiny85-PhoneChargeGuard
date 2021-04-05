@@ -77,7 +77,7 @@ Since there is no ICSP header on the board, you have to program the ATtiny eithe
 4. Use the SELECT button during charging to switch between the displayed values.
 5. The charging process stops automatically when the set limit value is reached.
 
-![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic4.jpg)
+![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic5.jpg)
 
 ## Button Functions
 |Button|Function|
@@ -111,7 +111,7 @@ Since there is no ICSP header on the board, you have to program the ATtiny eithe
 4. [HT7333 Datasheet](http://www.angeladvance.com/HT73xx.pdf)
 5. [AS3621 Datasheet](https://datasheet.lcsc.com/szlcsc/1809211432_AnBon-AS3621_C232288.pdf)
 
-![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic5.jpg)
+![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic4.jpg)
 
 # License
 ![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
