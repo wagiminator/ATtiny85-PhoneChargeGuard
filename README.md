@@ -27,7 +27,7 @@ The user interface utilizes five buttons and a [128x64 pixels OLED display](http
 
 # Software
 ## Basic Principle
-The INA219 continuously measures current and voltage and transmits the values to the ATtiny via I²C. From this, the ATtiny calculates the other values and displays them on the OLED screen. It controls the connection between the power supply and the phone via the MOSFET depending on the settings chosen by the user. TThe user settings are saved in the EEPROM and automatically loaded the next time it is used.
+The INA219 continuously measures current and voltage and transmits the values to the ATtiny via I²C. From this, the ATtiny calculates the other values and displays them on the OLED screen. It controls the connection between the power supply and the phone via the MOSFET depending on the settings chosen by the user. The user settings are saved in the EEPROM and automatically loaded the next time it is used.
 
 ## I²C OLED Implementation
 The I²C protocol implementation is based on a crude bitbanging method. It was specifically designed for the limited resources of ATtiny10 and ATtiny13, but it works with some other AVRs (including the ATtiny45/85) as well. The functions for the OLED are adapted to the SSD1306 OLED module, but they can easily be modified to be used for other modules. In order to save resources, only the basic functionalities which are needed for this application are implemented. For a detailed information on the working principle of the I²C OLED implementation visit [TinyOLEDdemo](https://github.com/wagiminator/attiny13-tinyoleddemo).
@@ -77,6 +77,8 @@ Since there is no ICSP header on the board, you have to program the ATtiny eithe
 4. Use the SELECT button during charging to switch between the displayed values.
 5. The charging process stops automatically when the set limit value is reached.
 
+![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic4.jpg)
+
 ## Button Functions
 |Button|Function|
 |-|-|
@@ -109,7 +111,6 @@ Since there is no ICSP header on the board, you have to program the ATtiny eithe
 4. [HT7333 Datasheet](http://www.angeladvance.com/HT73xx.pdf)
 5. [AS3621 Datasheet](https://datasheet.lcsc.com/szlcsc/1809211432_AnBon-AS3621_C232288.pdf)
 
-![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic4.jpg)
 ![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic5.jpg)
 
 # License
