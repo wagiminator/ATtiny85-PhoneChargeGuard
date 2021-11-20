@@ -1,20 +1,19 @@
 # Project:  Phone Charge Guard
 # Author:   Stefan Wagner
 # Year:     2020
-# URL:      https://easyeda.com/wagiminator
-#           https://github.com/wagiminator
+# URL:      https://github.com/wagiminator
 #
 # Type "make help" in the command line.
 
 # Input and Output File Names
-SKETCH  = PhoneChargeGuard_v1.1.ino
+SKETCH  = PhoneChargeGuard.ino
 TARGET  = phonechargeguard
 
 # Microcontroller Options
 DEVICE  = attiny85
-CLOCK   = 8000000
+CLOCK   = 1000000
 PROGRMR = usbasp
-LFUSE   = 0xE2
+LFUSE   = 0x62
 HFUSE   = 0xD5
 EFUSE   = 0xFF
 
