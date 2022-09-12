@@ -1,5 +1,5 @@
 # USB Phone Charge Guard
-The ATtiny45/85 USB Phone Charge Guard controls and monitors the charging of phones and other devices. Voltage, current, power and energy are constantly measured via the INA219 and compared with the user limit values. It cuts off the power supply via a MOSFET when a condition selected by the user is reached. This allows the state of charge of the phone's Li-ion battery to be controlled, thereby extending its service life. The user settings are saved in the EEPROM.
+The ATtiny45/85 USB Phone Charge Guard controls and monitors the charging of phones and other devices. Voltage, current, power and energy are constantly measured via the INA219 and compared with the user limit values. It cuts off the power supply via a MOSFET when a condition selected by the user is reached. This allows the state of charge of the phone's Li-Ion battery to be controlled, thereby extending its service life. The user settings are saved in the EEPROM.
 
 - Project Video (YouTube): https://youtu.be/9DHBoqHImcM
 - Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-phone-charge-guard
@@ -20,7 +20,7 @@ The device is supplied with 3.3V via an [HT7333](http://www.angeladvance.com/HT7
 The connection between the power supply and the phone is switched on and off via an [AS3621](https://datasheet.lcsc.com/szlcsc/1809211432_AnBon-AS3621_C232288.pdf) P-channel MOSFET. Despite its small size, it can switch up to 30V with 6A continuously. Its internal on-resistance is only about 20 milliohms.
 
 ## User Interface
-The user interface utilizes five buttons and a [128x64 pixels OLED display](http://aliexpress.com/wholesale?SearchText=128+64+0.96+oled+new+4pin). An [ATtiny45/85](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf) microcontroller handles the user interface, the control of the power connection and the calculation and display of the measured values.
+The user interface utilizes five buttons and an [SSD1306 128x32 pixels OLED display](http://aliexpress.com/wholesale?SearchText=128+32+0.91+oled). An [ATtiny45/85](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf) microcontroller handles the user interface, the control of the power connection and the calculation and display of the measured values.
 
 ![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic2.jpg)
 ![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic3.jpg)
@@ -109,6 +109,7 @@ Since there is no ICSP header on the board, you have to program the ATtiny eithe
 3. [SSD1306 Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)
 4. [HT7333 Datasheet](http://www.angeladvance.com/HT73xx.pdf)
 5. [AS3621 Datasheet](https://datasheet.lcsc.com/szlcsc/1809211432_AnBon-AS3621_C232288.pdf)
+6. [128x32 OLED on Aliexpress](http://aliexpress.com/wholesale?SearchText=128+32+0.91+oled)
 
 ![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-PhoneChargeGuard/master/documentation/PhoneChargeGuard_pic4.jpg)
 
